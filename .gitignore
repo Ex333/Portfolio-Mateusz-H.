@@ -1,0 +1,44 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+venv/
+.venv/
+env/
+
+# --- Environment variables (tajne dane) ---
+.env
+*.env
+
+# --- Django stuff ---
+db.sqlite3
+*.log
+
+# Static & media (generowane, nie commitujemy)
+staticfiles/
+media/
+
+# --- Django migrations cache (opcjonalnie) ---
+*/migrations/__pycache__/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Coverage / tests ---
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Bytecode ---
+*.pyo
+*.pyd
+
+# --- Local settings ---
+local_settings.py
