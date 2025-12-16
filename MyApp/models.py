@@ -29,3 +29,4 @@ class AboutMe(models.Model):
     class Meta:
         verbose_name = "About Me"
         verbose_name_plural = "About Me"
+
